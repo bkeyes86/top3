@@ -1,33 +1,36 @@
-('use strict');
-
-
+'use strict';
 console.log('This file is connected!');
+
+
 function helloMsg(){
 
-var bestBand = prompt('enter your favorite band!');
+    var greeting;
+    var bestBand = prompt('enter your favorite band!');
 
-var guess = prompt('guess where ed sheeran is on the list 1-3');
-//variable declaration
+    var guess = prompt('guess where ed sheeran is on the list 1-3');
+    //variable declaration
 
 
-if (guess >= 1 && guess > =1){
-    greeting = 'good job, ' + bestBand+ ' !';
-} else if (guess 1 < &&  >= 3){
-    greeting = `almost ${bestBand}`' !';
-} else if (guess <= 3 && guess <= 3) {
-    greeting = ' nope ' + bestBand;
-} else {
-    greeting = 'rockstar ';
+    if (guess == 1) {
+        greeting = 'good job!';
+    } else if (guess == 2) {
+        greeting = 'almost!';
+    } else if (guess == 3) {
+        greeting = ' nope!';
+    } else {
+        greeting = 'rockstar ';
+    }
+
+    return greeting;
 }
+var result = helloMsg();
 
-return greeting '+' guess
-}
 
-console.log(`${greeting} ${guess} ${bestBand}`);
+//console.log(`${greeting} ${guess} ${bestBand}`);
 
-console.log(bestBand);
+console.log(result);
 
-document.write(bestBand);
+document.write(result);
 
 
 
