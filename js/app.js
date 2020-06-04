@@ -1,7 +1,7 @@
 ('use strict');
 
-console.log('This file is not connected!');
-console.log('This file is not connected')
+console.log('This file is connected!');
+
 var bestBand = prompt('enter your favorite band!');
 
 var guess = prompt('guess where ed sheeran is on the list 1-3');
@@ -25,6 +25,6 @@ console.log(`${greeting} ${guess} ${bestBand}`);
 console.log(bestBand);
 
 document.write(bestBand);
-document.write(guess);
+
 
 
