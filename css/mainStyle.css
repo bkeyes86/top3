@@ -5,5 +5,16 @@
 
 h1 {
     font-family: 'Times New Roman', Times, serif;
-    color: crimson;
+    color: green;
+    font-size: 80px;
+}
+p {
+    color:red
+}
+ * {
+    background-color: black;
+    font-style: oblique;
+    font-size: 30px;
+    text-decoration: underline;
+    color: whitesmoke;
 }
